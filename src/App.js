@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import SearchBar from './components/search_bar'
 
-const API = 'AIzaSyB2W13_kcpo5aKjoL9t-hyWMjUDBk3xk8M';
+const API_KEY = 'AIzaSyB2W13_kcpo5aKjoL9t-hyWMjUDBk3xk8M';
 
 class App extends Component {
 	render() {
