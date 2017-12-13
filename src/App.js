@@ -1,9 +1,15 @@
 import React, {Component} from 'react';
+import YTSearch from 'youtube-api-search'
+
 import logo from './logo.svg';
 import './App.css';
 import SearchBar from './components/search_bar'
 
 const API_KEY = 'AIzaSyB2W13_kcpo5aKjoL9t-hyWMjUDBk3xk8M';
+
+YTSearch({key: API_KEY, term: 'surfboards'}, function (data) {
+	console.log(data);
+})
 
 class App extends Component {
 	render() {
